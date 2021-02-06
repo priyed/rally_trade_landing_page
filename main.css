@@ -392,7 +392,7 @@ footer {
   #register,
   #login {
     top: 50px;
-    width: 50vw;
+    width: 40vw;
     margin-left: 30px;
   }
 
@@ -466,6 +466,10 @@ footer {
 
   .login_register ul {
     margin-top: 0;
+  }
+
+  .login_register ul li a {
+      color: #74c4dd;
   }
 
   .login_register ul li:first-child a {
