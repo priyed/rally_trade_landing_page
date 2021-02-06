@@ -1,0 +1,237 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rally Trade</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6518fa1f9c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-box">
+                <img src="./assets/logo-rally-trade.png" alt="rally trade logo" />
+            </div>
+            <ul class="mobile-menu navbar" id="navbar">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about-us">about us</a></li>
+                <li><a href="#events">events</a></li>
+                <li><a href="#home">trading</a></li>
+                <li><a href="#partners">partners</a></li>
+
+                <div class="login_register">
+                    <a href="#login">login</a>
+                    <a href="#register">register</a>
+                </div>
+
+                <a href="#phone" class="telephone">+2349018740318</a>
+
+                <a class="close" href="#close">
+                    <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close" /></a>
+            </ul>
+            <a class="hamburger" href="#navbar">
+                <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu" />
+            </a>
+
+            <div class="desktop-menu">
+                <a href="#home">home</a>
+                <a href="#about-us">about us</a>
+                <a href="#events">events</a>
+                <a href="#home">trading</a>
+                <a href="#partners">partners</a>
+
+                <div class="login_register">
+                    <a href="#login">login</a>
+                    <a href="#register"></a>
+                    <a href="#phone">+2349018740318</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <!--hidden anchor to stop jump-->
+            <a class="hiddenanchor" id="toregister"></a>
+            <a class="hiddenanchor" id="tologin"></a>
+            <div class="form-container">
+
+                <div id="login" class="animate form">
+                    <form autocomplete="on">
+                        <div class="form-headers">
+                            <h2>Login</h2>
+                            <div class="line"></div>
+                            <h2 class="change-link">
+                                <a href="#toregister" class="to-register">Registration</a>
+                            </h2>
+                        </div>
+                        <input type="text" placeholder="username" id="username" name="username" required />
+                        <input type="password" placeholder="password" id="password" name="password" required />
+                        <p class="keeplogin">
+                            <input type="checkbox" name="keeplogin" id="keeplogin" value="keeplogin" />
+                            <label for="keeplogin">Keep me logged in</label>
+                        </p>
+                        <p class="login-btn button">
+                            <input type="submit" value="Login" />
+                        </p>
+
+                    </form>
+                </div>
+
+                <div id="register" class="animate form">
+                    <p class="signup-text">SignUp with RallyTrade in few minutes</p>
+                    <form class="register" autocomplete="on">
+                        <div class="form-headers">
+                            <h2>Registration</h2>
+                            <div class="line"></div>
+                            <h2 class="change-link">
+                                <a href="#tologin" class="to-register">Login</a>
+                            </h2>
+                        </div>
+                        <input type="text" placeholder="First name" required />
+                        <input type="text" placeholder="Last name" required />
+                        <input type="email" placeholder="Email" />
+                        <input type="tel" placeholder="Phone Number" />
+                        <input type="text" placeholder="Country" />
+                        <p class="terms">
+                            <input type="checkbox" name="terms" id="terms" value="terms" />
+                            <label for="terms">I hereby state that I am over 18 years old and I have read,
+                                understood, accepted and I agree with Terms and Conditions
+                                (T&C) and other applicable documents, which are described
+                                below. I agree with the personal data processing by RallyTrade
+                                as stated in Privacy Policy.</label>
+                        </p>
+
+                        <div class="account-options">
+                            <div class="account-type">
+                                <label for="radio">
+                                    <input type="radio" name="account-type" value="Demo" /> Demo
+                                </label>
+                                <label for="radio">
+                                    <input type="radio" name="account-type" value="Real" /> Real
+                                </label>
+                            </div>
+
+                            <div class="currency-type">
+                                <label for="radio">
+                                    <input type="radio" name="currency-type" value="NGN" /> NGN
+                                </label>
+                                <label for="radio">
+                                    <input type="radio" name="currency-type" value="USD" /> USD
+                                </label>
+                            </div>
+                        </div>
+                        <p class="register-btn button">
+                            <input type="submit" value="Open Account" />
+                        </p>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="features">
+                <div class="feature">
+                    <i class="fa fa-shield"></i>
+                    <p>Regulated & Secure</p>
+                </div>
+                <div class="feature">
+                    <i class="fa fa-launch"></i>
+                    <span class="material-icons"> launch </span>
+                    <p>Award</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons"> leaderboard </span>
+                    <p>1:1000 Leverage</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons"> highlight_alt </span>
+                    <p>Live Seminars & Training</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons"> sort </span>
+                    <p>Advanced Training Platform</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons"> build </span>
+                    <p>500+ Trading Instruments</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="account-features">
+            <div class="open-account">
+                <em>
+                    <h3>Open your account to start trading today!</h3>
+                    <p>
+                        Standard Account: $100 + bonus<br />
+                        Competitive spreads all round offering
+                    </p>
+                    <p>
+                        Basic Account: $100 + bonus<br />
+                        Same competitive spreads smaller trade sizes
+                    </p>
+                    <p>
+                        Pro Account: $500 + bonus<br />
+                        No commissions no requotes, super light spreads
+                    </p>
+                </em>
+            </div>
+            <div class="dividing-line"></div>
+            <div class="contacts">
+                <em>
+                    <p>
+                        ADDRESS<br />
+                        FRNG Lagos<br />
+                        Fanis house, 21 Adeniyi Jones Avenue, Ikeja, Lagos State<br />
+                        phone: +234 901 874 0318
+                    </p>
+                    <p>
+                        FRNG Port Harcourt<br />
+                        2nd Floor, City View Plaza, No 26a Aba Road, Beside Market
+                        Junction, Port Harcourt State<br />
+                        phone: +234 802 822 3337
+                    </p>
+                    <p>
+                        FRNG Ibadan<br />
+                        2nd Floor, Owoade House, Al Akinyemi Way, Ring Road, Ibadan, Oyo
+                        State<br />
+                        phone: +234 802 722 2332
+                    </p>
+                    <p>
+                        FRNG Abuja<br />
+                        3rd Floor, Lifestyle House, No.3 Mike Akhigbe way, Jabi Abuja<br />
+                        phone: +234 902 722 2222
+                    </p>
+                </em>
+            </div>
+        </section>
+
+        <section class="about">
+            <em>
+                <h3>Join over 3 million people who have already chosen RallyTrade</h3>
+                <p>
+                    Rally Trade is an international online boker providing highly
+                    competitive brokerage services to emerging financial economies.We
+                    infuse cutting edge technology, low transactional fees with an array
+                    of financial instruments to give you an unmatched trading
+                    experience. We offer trading and other services in Forex,
+                    commodities, precious metals, shares, indices and other financial
+                    instruments.
+                </p>
+                <p>
+                    Risk Warning: Our products are traded on margin and carry a high
+                    level of risk and it is possible to lose all your capital. These
+                    products may not e suitable for everyone and you should ensure that
+                    you understand the risks involved.
+                </p>
+            </em>
+        </section>
+
+        <footer>RallyTrade &COPY; 2020. Privacy Policy</footer>
+    </div>
+</body>
+
+</html>
