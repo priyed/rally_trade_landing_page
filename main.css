@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 html {
   text-align: center;
@@ -392,7 +396,7 @@ footer {
   #register,
   #login {
     top: 50px;
-    width: 40vw;
+    width: 50vw;
     margin-left: 30px;
   }
 
